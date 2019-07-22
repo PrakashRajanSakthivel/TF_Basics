@@ -34,7 +34,7 @@ with tf.Session() as default_graph_session:
     b = tf.constant([3])
     addition = tf.add_n([a, b])
     print(default_graph_session.run(addition))
-    writer = tf.summary.FileWriter("./simple_math_operation1", smwc.graph)
+    writer = tf.summary.FileWriter("./simple_math_operation1", default_graph_session.graph)
     writer.close()
 
 
