@@ -12,7 +12,7 @@ Issues faced:
 "Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2". 
 Solution:  https://stackoverflow.com/questions/47068709/your-cpu-supports-instructions-that-this-tensorflow-binary-was-not-compiled-to-u -- solution by Z.Wei worked
 
-2.If facing issue in loading the url in tensorboard, then load specify the url and port.
+2. If facing issue in loading the url in tensorboard, then load specify the url and port.
   tensorboard --logdir="entire\folder\path" --host localhost --port 8085(anyport)
 
  
