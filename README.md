@@ -18,3 +18,4 @@ Solution:  https://stackoverflow.com/questions/47068709/your-cpu-supports-instru
  
 
 
+* This was created while learning tensorflow fromr PluralSight
